@@ -1,0 +1,43 @@
+/*
+DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
+*/
+
+@include bp(xSmall){
+	$app__header--height:3rem;
+
+	html{
+		font-size: 15px;
+	}
+
+	.app__header{
+		height:$app__header--height;
+		background-color:$app__color--dark;
+		padding: 0 1rem;
+
+		> * {
+			line-height: $app__header--height;
+			display: inline-block;
+		}
+
+		.logo{
+			padding-left: 0.5rem;
+		}
+
+		img{
+			width: 2.5rem;
+			vertical-align: middle;
+		}
+
+		h2{
+			color: $app__color--accent;
+			font-size: 1.4rem;
+			vertical-align: sub;
+			font-style: italic;
+		}
+
+		.menu{
+			float: left;
+			color: $app__color--accent;
+		}
+	}
+}

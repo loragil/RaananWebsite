@@ -1,0 +1,28 @@
+
+//* breakpoints
+/*
+
+*/
+@mixin bp($point) {
+  
+  $bp-xSmall: "(max-width: 320px)";
+  $bp-small: "(max-width: 640px)";
+  $bp-medium: "(max-width: 1250px)";
+  $bp-large: "(max-width: 1600px)";
+
+  @if $point == xSmall {
+    @media only screen and #{$bp-xSmall} { @content; }
+  }
+  @if $point == small {
+    @media only screen and #{$bp-small} { @content; }
+  }
+  @else if $point == medium {
+    @media only screen and #{$bp-medium} { @content; }
+  }
+  @else if $point == large {
+    @media only screen and #{$bp-large}  { @content; }
+  }
+
+}
+
+/******************************************/

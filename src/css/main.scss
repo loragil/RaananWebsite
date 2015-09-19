@@ -1,16 +1,28 @@
+//* compass imports
 @import 'compass';
 @import 'compass/reset';
 
+//* app imports
+@import 'extendables';
+@import 'mixins';
+@import 'fonts';
+@import 'skin';
+@import 'default_res';
 
-html{
-	font-size: 10px;
+//* base layout
+html{ 
+	//font-size: 10px;
+	direction: rtl;
 }
 
 body{
-	font-size: 1.6rem;
+	font-family: 'appWebFont', sans-serif;
+	//font-size: 1.6rem;
+	background-color: $app__color--light;
 }
 
 html,
-body{
+body,
+.main{
 	height:100%; 
 }

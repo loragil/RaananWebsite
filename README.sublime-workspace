@@ -1,0 +1,808 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tr",
+				"transition-delay"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"b",
+				"bgc	background-color"
+			],
+			[
+				"bg",
+				"bgc	background-color"
+			],
+			[
+				"P",
+				"Port"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"M",
+				"Mesh"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"va",
+				"value	Attr"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ge",
+				"geometry"
+			],
+			[
+				"ma",
+				"material"
+			],
+			[
+				"m",
+				"mesh"
+			],
+			[
+				"onch",
+				"onchange=  (attribute)"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"s",
+				"start"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"t",
+				"ThreeEnv"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"sk",
+				"skinnedMesh"
+			],
+			[
+				"a",
+				"aside"
+			],
+			[
+				"fl",
+				"float"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3020,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "scss",
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"gulp",
+				"Gulp: Delete cache"
+			],
+			[
+				"g",
+				"Gulp (silent)"
+			],
+			[
+				"gul",
+				"Gulp: Delete cache"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"ins	",
+				"Package Control: Install Package"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"conf",
+				"Bower: Configure project"
+			],
+			[
+				"bow",
+				"Bower: Configure project"
+			],
+			[
+				"confi",
+				"Bower: Configure project"
+			],
+			[
+				"bower",
+				"Bower: Discover packages"
+			],
+			[
+				"comp",
+				"Package Control: Remove Package"
+			],
+			[
+				"bui",
+				"Build: Build"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"git:o",
+				"Git: Open Modified Files"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"gut",
+				"Git: Push"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git a",
+				"Git: Add..."
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML5"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"compass init",
+			"compass init\\",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Dropbox/Projects/RaananWebsite_client"
+	],
+	"file_history":
+	[
+		"/D/Dropbox/Projects/RaananWebsite/src/index.html",
+		"/D/Dropbox/Projects/RaananWebsite/src/css/main.scss",
+		"/D/Dropbox/Projects/RaananWebsite/gulpfile.js",
+		"/D/Dropbox/Projects/RaananWebsite/src/css/main.css",
+		"/D/Dropbox/Projects/RaananWebsite/package.json",
+		"/D/Dropbox/Projects/RaananWebsite/README.md",
+		"/D/Dropbox/Projects/RaananWebsite/.gitignore",
+		"/C/Users/Gil/Documents/projects/mishmesh/bower_components/ionic/gulpfile.js",
+		"/C/Users/Gil/Documents/projects/monopoly/node_modules/gulp-notify/examples/gulpfile.js",
+		"/C/Users/Gil/Documents/projects/monopoly/gulpfile.js",
+		"/D/Dropbox/Projects/RaananWebsite/src/main.js",
+		"/D/Dropbox/Projects/RaananWebsite/config.rb",
+		"/D/Dropbox/Projects/RaananWebsite/index.html",
+		"/D/Dropbox/Projects/RaananWebsite/css/site.scss",
+		"/D/Dropbox/Projects/Game dev/Memory game online/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/gulpfile.js",
+		"/D/Dropbox/Projects/Game dev/MemoryGameOnline/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/gulpfile.js",
+		"/D/Dropbox/Projects/RaananWebsite/css/site.css",
+		"/D/Dropbox/Projects/Game dev/Memory game online/public/css/site.scss",
+		"/D/Dropbox/Projects/Game dev/Memory game online/public/css/site.css",
+		"/D/Dropbox/Projects/Game dev/memory game/components/memory-game.html",
+		"/D/Dropbox/Projects/Game dev/memory game/components/memory-game-two.html",
+		"/D/Dropbox/Projects/Game dev/Memory game online/socket_handler/index.js",
+		"/D/Dropbox/Projects/Game dev/Memory game online/connection_manager/index.js",
+		"/D/Dropbox/Projects/Game dev/Memory game online/public/index.html",
+		"/D/Dropbox/Projects/Game dev/Memory game online/public/game.js",
+		"/D/Dropbox/Projects/Game dev/Memory game online/server.js",
+		"/D/Dropbox/Projects/Game dev/Memory game online/public/css/_card.scss",
+		"/D/Dropbox/Projects/Game dev/Memory game online/public/css/_game.scss",
+		"/D/Dropbox/Projects/Game dev/memory game/components/game-card.html",
+		"/D/Dropbox/Projects/Game dev/Memory game online/config.rb",
+		"/D/Dropbox/Projects/Game dev/Memory game online/gruntfile.js",
+		"/D/Dropbox/Projects/Game dev/Memory game online/public/js/game.js",
+		"/D/Dropbox/Projects/Game dev/Memory game online/public/js/client.js",
+		"/D/Dropbox/Projects/Game dev/memory game/index.html",
+		"/D/Dropbox/Projects/Game dev/Memory game online/package.json",
+		"/D/Dropbox/Projects/Game dev/Memory game online/client.js",
+		"/C/Users/Gil/Documents/projects/memory game/README.md",
+		"/D/Dropbox/Projects/Game dev/source/index.html",
+		"/D/Dropbox/Projects/Game dev/site/scripts/main.js",
+		"/D/Dropbox/Projects/Game dev/site/config.rb",
+		"/D/Dropbox/Projects/Game dev/site/css/main.scss",
+		"/D/Dropbox/Projects/Game dev/M&M/Resources/Template/Template/Assets/Scripts/AgentController.cs",
+		"/D/Dropbox/Projects/Game dev/site/components/widget.js",
+		"/D/Dropbox/Projects/M&M/src/data/enums.js",
+		"/D/Dropbox/Projects/M&M/src/TODO.txt",
+		"/D/Dropbox/Projects/M&M/src/data/zones.js",
+		"/D/Dropbox/Projects/M&M/src/scripts/zone.js",
+		"/D/Dropbox/Projects/M&M/src/enums/enums.js",
+		"/D/Dropbox/Projects/M&M/src/TODO.txtx",
+		"/C/Users/Gil/AppData/Local/Temp/Rar$DIa0.131/buildFile",
+		"/C/Users/Gil/AppData/Local/Temp/Rar$DIa0.078/moduledata",
+		"/C/Users/Gil/AppData/Local/Temp/Rar$DIa0.739/moduledata",
+		"/C/Users/Gil/AppData/Local/Temp/Rar$DIa0.318/buildFile",
+		"/C/Users/Gil/Documents/projects/monopoly/css/modules/_board.scss",
+		"/C/Users/Gil/Documents/projects/monopoly/.sublime-gulp-tmp.js",
+		"/C/Users/Gil/Documents/projects/monopoly/dist/styles/main.css",
+		"/C/Users/Gil/Documents/projects/monopoly/styles/main.css",
+		"/C/Users/Gil/Documents/projects/monopoly/sublime-gulp.log",
+		"/C/Users/Gil/Documents/projects/monopoly/tal/monopoly/monopoly.html",
+		"/C/Users/Gil/Documents/projects/monopoly/copenhagen_box_game.jpg",
+		"/C/Users/Gil/Documents/projects/monopoly/config.rb",
+		"/C/Users/Gil/Documents/projects/monopoly/index2.html",
+		"/C/Users/Gil/Documents/projects/monopoly/tal/monopoly/monopoly.js",
+		"/C/Users/Gil/Documents/projects/monopoly/tal/monopoly/monopoly_board.js",
+		"/C/Users/Gil/Documents/projects/monopoly/.sass-cache/7fc18634f4fd24ffcb478c656a36438c36909c78/_ellipsis.scssc",
+		"/C/Users/Gil/Documents/projects/monopoly/.sass-cache/7b6e6f43bf80230d237592899c240a479f5081e4/_scaffolding.scssc",
+		"/C/Users/Gil/Documents/projects/monopoly/.sass-cache/f73885ae11b5162c8a06c35b3fc4a175bf7cfb36/_border-radius.scssc",
+		"/C/Users/Gil/Documents/projects/monopoly/.sass-cache/d77fab2350d63d75a36ccf09a47365d5eccb4ccb/_contrast.scssc",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/User/SublimeServer.sublime-settings",
+		"/C/Users/Gil/Documents/projects/monopoly/stylesheets/main.css",
+		"/C/Users/Gil/Documents/projects/monopoly/css/main.scss",
+		"/C/Users/Gil/Documents/projects/monopoly/css/base/_layout.scss",
+		"/C/Users/Gil/Documents/projects/monopoly/css/base/_base.scss",
+		"/C/Users/Gil/Documents/projects/monopoly/css/_config.scss",
+		"/C/Users/Gil/Documents/projects/monopoly/index3.htnl",
+		"/C/Users/Gil/Documents/projects/monopoly/css/_placeholders.scss",
+		"/C/Users/Gil/Documents/projects/monopoly/css/base/_mixins.scss",
+		"/C/Users/Gil/Documents/projects/monopoly/css/_mixins.scss",
+		"/C/Users/Gil/Documents/projects/monopoly/css/mixins/_mixins.scss",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/C/Users/Gil/Documents/projects/monopoly/README.md",
+		"/C/Users/Gil/Documents/projects/monopoly/css/layout/_base.scss",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/Default.sublime-keymap",
+		"/C/Users/Gil/Documents/projects/monopoly/css/config.rb",
+		"/C/Users/Gil/Documents/projects/monopoly/index.html",
+		"/C/Users/Gil/Documents/projects/monopoly/stylesheets/screen.css",
+		"/C/Users/Gil/Documents/projects/memory game/css/game.css",
+		"/C/Users/Gil/Documents/projects/memory game/css/reset.css",
+		"/C/Users/Gil/Documents/projects/memory game/components/game-card.html",
+		"/C/Users/Gil/Documents/projects/memory game/js/game.js",
+		"/D/Dropbox/Projects/Game dev/Monopoly/Monopoly.MvcApp/html/monopoly.html",
+		"/C/Users/Gil/Documents/projects/memory game/index.html",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Gil/Documents/projects/meteor/meteorApp/deleteme.js",
+		"/C/Users/Gil/Documents/projects/meteor/meteorApp/meteorApp.sublime-project",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Gil/Documents/projects/webapp/models/marine_anims.js",
+		"/C/Users/Gil/Documents/projects/webapp/models/knight.json",
+		"/C/Users/Gil/Documents/projects/webapp/models/knight.js",
+		"/C/Users/Gil/Documents/projects/3djs/app/model/car.js",
+		"/C/Users/Gil/Documents/projects/3djs/app/model/knight.js",
+		"/C/Users/Gil/Documents/projects/3djs/app/model/tree.js",
+		"/C/Users/Gil/Documents/projects/webapp/app/styles/_style.scss",
+		"/C/Users/Gil/Documents/projects/3djs/app/scripts/directives/ngwebgl.js",
+		"/C/Users/Gil/Documents/projects/mishmesh/app/scripts/scene.js",
+		"/C/Users/Gil/Documents/projects/webapp/app/scripts/app.js",
+		"/C/Users/Gil/Documents/projects/webapp/models/stork.json",
+		"/C/Users/Gil/Documents/projects/webapp/models/horse.json",
+		"/C/Users/Gil/Documents/projects/webapp/bower.json",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/C/Users/Gil/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/C/Users/Gil/Documents/projects/webapp/app/styles/main.scss",
+		"/C/Users/Gil/Documents/projects/webapp/.jshintrc",
+		"/C/Users/Gil/Documents/projects/webapp/bower_components/threex/src/threex.controls/examples/basic.html",
+		"/C/Users/Gil/Documents/projects/webgl-code-samples-master/ng-3D-TTT/js/ng/ttt-factory.js",
+		"/C/Users/Gil/Documents/projects/mishmesh2/vendor/three.js/examples/js/Detector.js",
+		"/C/Users/Gil/Documents/projects/mishmesh2/index.html",
+		"/C/Users/Gil/Documents/projects/webapp/app/index.html",
+		"/C/Users/Gil/Documents/projects/mishmesh2/vendor/require.js/require.js",
+		"/C/Users/Gil/Documents/projects/webgl-code-samples-master/ng-3D-TTT/partials/user-prompt.html",
+		"/C/Users/Gil/Documents/projects/webgl-code-samples-master/ng-3D-TTT/lib/OrbitControls.js",
+		"/C/Users/Gil/Documents/projects/webgl-code-samples-master/ng-3D-TTT/js/three/util.js",
+		"/C/Users/Gil/Documents/projects/mishmesh/app/scripts/setup.js",
+		"/C/Users/Gil/Documents/projects/mishmesh/app/scripts/helpers/camera.js",
+		"/C/Users/Gil/Documents/projects/webgl-code-samples-master/ng-3D-TTT/js/three/computer.js",
+		"/C/Users/Gil/Documents/projects/mishmesh/bower.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\nhtml{\n	font-size: 10px;\n}",
+			"'))\n",
+			"done",
+			"sass",
+			"connect",
+			"gulp-connect",
+			"gulp-sourcemaps",
+			"MemoryGameOnline",
+			"');\n",
+			"currentPlayerPlaceHolder",
+			"-->\n",
+			"\"back\"",
+			"setPlayersNames",
+			"color",
+			" =",
+			"\n//\nenum GloryEvents{};",
+			"\n//\nenum ShipHitLocations{};",
+			"//\nenum CombatActions{};",
+			"\n//\nenum Direction{};",
+			",",
+			"- ",
+			"South, West",
+			";\n",
+			"src",
+			".csstransforms .opened-nav li",
+			"li",
+			".cn-wrapper ",
+			".csstransforms ",
+			"\">",
+			">",
+			"(li.row.top+li.col.right)",
+			"dice",
+			"cell_info",
+			"player_stats",
+			"title_display",
+			"player_stats",
+			"title_display",
+			"Current Player: ",
+			"player_stats",
+			"money",
+			"player-3",
+			"p0",
+			"name",
+			"];\n",
+			"Banners",
+			"playerBanners",
+			"players_menu",
+			"menu",
+			"display_names",
+			"banners",
+			"player-",
+			"\n    .player-0{        \n        background-color: red;\n        top: 0;\n        left: 0;\n    }\n    ",
+			"\"player-",
+			"player-",
+			"player",
+			" \n",
+			"11px",
+			"compass",
+			"\";\n",
+			"clone",
+			"Object.create",
+			"card",
+			"game",
+			"\"name\"",
+			"animation",
+			"animation:",
+			"anima",
+			"load",
+			"reset",
+			"anim",
+			"\n                <div>\n                    <button id=\"reset\" onclick=\"MishMesh.master.controls.reset();\">Reset</button>\n                </div>",
+			"color",
+			"VertexColors",
+			"5px",
+			"wireframe",
+			"materials.wireframe",
+			" =",
+			"MishMesh.scene",
+			"this",
+			"MishMesh.",
+			";",
+			"this.",
+			"MishMesh.Scene",
+			"cameraMultiplier",
+			"scripts/",
+			"/",
+			"Demo",
+			" \n",
+			"renderer",
+			"text-muted",
+			"listeners",
+			";\n",
+			"AnimationHandler ",
+			"THREE.Animation",
+			"anim",
+			"mesh",
+			"Animation",
+			"animation",
+			"Animation",
+			"animation",
+			"Animation",
+			"animation",
+			"Animation",
+			"animation",
+			";",
+			"var",
+			"1Ctrl",
+			"Ctrl",
+			"ng-app",
+			"script",
+			">\n",
+			"morphTargets",
+			"anim",
+			"animation",
+			"Animation",
+			"animation",
+			"Animation",
+			"animation",
+			"Animation",
+			"animation",
+			"fillcontainer",
+			"THREE.GeometryUtils.center(scope.skinnedMesh.geometry)",
+			"animation",
+			"animate2",
+			"resizeCanvas",
+			"camera",
+			"Camera",
+			"camera"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"back stars\"\n",
+			";\n",
+			":",
+			", ",
+			"",
+			"\"\"",
+			"GLRenderer({antialias:true, alpha: true}) : \n			    new THREE.Ca"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Dracula (SL).tmTheme",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Compass/Compass.sublime-build",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 58.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 384.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

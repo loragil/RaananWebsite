@@ -63,18 +63,74 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 5, main.scss */
-html {
-  font-size: 10px;
-}
+/*
 
-/* line 9, main.scss */
-body {
-  font-size: 1.6rem;
+*/
+/******************************************/
+@font-face {
+  font-family: 'appWebFont';
+  src: url("../assets/fonts/simple/SimpleCLM-Medium.ttf") format("truetype");
 }
+@font-face {
+  font-family: 'appWebFontBold';
+  src: url("../assets/fonts/simple/SimpleCLM-Medium.ttf") format("truetype");
+}
+/*
+DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
+*/
+@media only screen and (max-width: 320px) {
+  /* line 8, _default_res.scss */
+  html {
+    font-size: 15px;
+  }
 
+  /* line 12, _default_res.scss */
+  .app__header {
+    height: 3rem;
+    background-color: #304D4E;
+    padding: 0 1rem;
+  }
+  /* line 17, _default_res.scss */
+  .app__header > * {
+    line-height: 3rem;
+    display: inline-block;
+  }
+  /* line 22, _default_res.scss */
+  .app__header .logo {
+    padding-left: 0.5rem;
+  }
+  /* line 26, _default_res.scss */
+  .app__header img {
+    width: 2.5rem;
+    vertical-align: middle;
+  }
+  /* line 31, _default_res.scss */
+  .app__header h2 {
+    color: #F0D699;
+    font-size: 1.4rem;
+    vertical-align: sub;
+    font-style: italic;
+  }
+  /* line 38, _default_res.scss */
+  .app__header .menu {
+    float: left;
+    color: #F0D699;
+  }
+}
 /* line 13, main.scss */
-html,
+html {
+  direction: rtl;
+}
+
+/* line 18, main.scss */
 body {
+  font-family: 'appWebFont', sans-serif;
+  background-color: #8A9E52;
+}
+
+/* line 24, main.scss */
+html,
+body,
+.main {
   height: 100%;
 }
