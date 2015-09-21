@@ -40,4 +40,107 @@ DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
 			color: $app__color--accent;
 		}
 	}
+
+	.content{
+		padding: 1rem;
+
+		.containerA{
+			position: relative;
+			border-radius: $app__defaults--border-radius;
+			overflow: hidden;
+
+			h2{
+				position: absolute;
+				//bottom: 0;
+				text-align: center;
+				width: 100%;
+				padding: 0.5rem 0;
+				background-color: rgba(255, 255, 255, 0.6);
+				color: $app__color--dark;
+				font-size: 1.5rem;
+			}
+
+			.img{
+				background: url("../assets/images/shedA.jpg") no-repeat;
+				background-size: cover;
+				height: 16rem;
+				width: 100%;
+			}
+		}
+
+		.containerB{
+			border-bottom: 2px solid $app__color--base;
+			padding: 0.6rem 0 0.2rem;
+		}
+
+		.containerC{
+			padding-top: 0.5rem;
+		}
+
+		.containerB,
+		.containerC{
+			> div{
+				width:50%;
+			}
+
+			.inner{
+				float: left;
+			}
+
+			label{
+				font-weight: bold;
+				font-family: appWebFont;
+			}
+		}
+
+		details{
+			//transition: $app__defaults--transition;	
+			//animation-duration: 800ms;
+			//animation-timing-function:ease-in-out; 
+
+			&:not([open]) { 
+				//height: 1.25em; 
+				animation-name: slideUp;				
+				
+				i{
+					transform: rotate(45deg);
+				}
+			}
+
+			&[open] { 
+				//height: 6.50em;
+				animation-name: slideDown;
+			}
+
+			i{   
+				transition: $app__defaults--transition;
+				background-color: #fff;
+				position: absolute;
+				bottom: -0.8rem;
+				margin-right: -0.5rem;
+				font-size: 1.5rem;
+			}
+
+			.containerB{
+				position: relative;
+			}
+
+			h2{
+				padding-right: 1rem;
+			}
+		}
+
+		summary{
+			transition: $app__defaults--transition;	
+
+			&::-webkit-details-marker {
+				display: none;
+			}
+
+			&:focus{
+				outline: none;
+			}
+		}
+
+	}
 }

@@ -7,6 +7,7 @@
 @import 'mixins';
 @import 'fonts';
 @import 'skin';
+@import 'animations';
 @import 'default_res';
 
 //* base layout
@@ -18,7 +19,8 @@ html{
 body{
 	font-family: 'appWebFont', sans-serif;
 	//font-size: 1.6rem;
-	background-color: $app__color--light;
+	//background-color: $app__color--light;
+	color:$app__color--dark;
 }
 
 html,
@@ -26,3 +28,10 @@ body,
 .main{
 	height:100%; 
 }
+
+
+//* pseudo
+/* summary::-webkit-details-marker,
+summary::details-marker {
+	display: none;
+} */
