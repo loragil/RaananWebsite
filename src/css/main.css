@@ -63,6 +63,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* %clearfix { */
+/* line 2, _extendables.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 4, _extendables.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 8, _extendables.scss */
+.clearfix:after {
+  clear: both;
+}
+
 /*
 
 */
@@ -165,52 +180,104 @@ DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
     background-color: rgba(255, 255, 255, 0.6);
     color: #304D4E;
     font-size: 1.5rem;
+    box-shadow: 3px 3px 6px 0px #304D4E;
   }
-  /* line 63, _default_res.scss */
+  /* line 64, _default_res.scss */
   .content .containerA .img {
     background: url("../assets/images/shedA.jpg") no-repeat;
     background-size: cover;
     height: 16rem;
     width: 100%;
   }
-  /* line 71, _default_res.scss */
+  /* line 72, _default_res.scss */
   .content .containerB {
     border-bottom: 2px solid #4B7551;
     padding: 0.6rem 0 0.2rem;
+    font-size: 1.2rem;
   }
-  /* line 76, _default_res.scss */
+  /* line 77, _default_res.scss */
+  .content .containerB .outer {
+    padding-right: 1rem;
+    width: 50%;
+  }
+  /* line 83, _default_res.scss */
   .content .containerC {
     padding-top: 0.5rem;
   }
-  /* line 82, _default_res.scss */
+  /* line 89, _default_res.scss */
   .content .containerB > div,
   .content .containerC > div {
     width: 50%;
   }
-  /* line 86, _default_res.scss */
+  /* line 93, _default_res.scss */
   .content .containerB .inner,
   .content .containerC .inner {
     float: left;
+    width: 50%;
   }
-  /* line 90, _default_res.scss */
+  /* line 98, _default_res.scss */
   .content .containerB label,
   .content .containerC label {
     font-weight: bold;
     font-family: appWebFont;
   }
-  /* line 101, _default_res.scss */
+  /* line 104, _default_res.scss */
+  .content .features {
+    margin: 0.5rem 0;
+  }
+  /* line 107, _default_res.scss */
+  .content .features li {
+    /* width: 50%;
+    text-align: center;
+    float: right; */
+  }
+  /* line 112, _default_res.scss */
+  .content .features li > div {
+    display: inline-block;
+  }
+  /* line 116, _default_res.scss */
+  .content .features li > div:first-child {
+    font-size: 1.5rem;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #4B7551;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 3px 3px 1px #304D4E;
+    text-align: center;
+  }
+  /* line 132, _default_res.scss */
+  .content .features .txt {
+    font-size: 1.4rem;
+    padding-right: 0.5rem;
+  }
+  /* line 137, _default_res.scss */
+  .content .features .disclaimer {
+    font-size: 0.6rem;
+  }
+  /* line 141, _default_res.scss */
+  .content .features .fa-ils {
+    text-indent: -4px;
+  }
+  /* line 146, _default_res.scss */
+  .content details {
+    margin-top: 0.5rem;
+  }
+  /* line 152, _default_res.scss */
   .content details:not([open]) {
     animation-name: slideUp;
   }
-  /* line 105, _default_res.scss */
+  /* line 156, _default_res.scss */
   .content details:not([open]) i {
     transform: rotate(45deg);
   }
-  /* line 110, _default_res.scss */
+  /* line 161, _default_res.scss */
   .content details[open] {
     animation-name: slideDown;
   }
-  /* line 115, _default_res.scss */
+  /* line 166, _default_res.scss */
   .content details i {
     transition: all 0.3s ease;
     background-color: #fff;
@@ -219,23 +286,23 @@ DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
     margin-right: -0.5rem;
     font-size: 1.5rem;
   }
-  /* line 124, _default_res.scss */
+  /* line 175, _default_res.scss */
   .content details .containerB {
     position: relative;
   }
-  /* line 128, _default_res.scss */
+  /* line 179, _default_res.scss */
   .content details h2 {
     padding-right: 1rem;
   }
-  /* line 133, _default_res.scss */
+  /* line 184, _default_res.scss */
   .content summary {
-    transition: all 0.3s ease;
+    margin-bottom: 0.5rem;
   }
-  /* line 136, _default_res.scss */
+  /* line 188, _default_res.scss */
   .content summary::-webkit-details-marker {
     display: none;
   }
-  /* line 140, _default_res.scss */
+  /* line 192, _default_res.scss */
   .content summary:focus {
     outline: none;
   }

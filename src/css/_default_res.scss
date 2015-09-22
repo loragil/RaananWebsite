@@ -58,6 +58,7 @@ DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
 				background-color: rgba(255, 255, 255, 0.6);
 				color: $app__color--dark;
 				font-size: 1.5rem;
+				box-shadow:$app__defaults--box-shadow;
 			}
 
 			.img{
@@ -71,6 +72,12 @@ DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
 		.containerB{
 			border-bottom: 2px solid $app__color--base;
 			padding: 0.6rem 0 0.2rem;
+			font-size: 1.2rem;
+
+			.outer{
+				padding-right: 1rem;
+				width: 50%;
+			}
 		}
 
 		.containerC{
@@ -85,6 +92,7 @@ DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
 
 			.inner{
 				float: left;
+				width: 50%;
 			}
 
 			label{
@@ -93,10 +101,53 @@ DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
 			}
 		}
 
+		.features{
+			margin: 0.5rem 0;
+
+			li{
+				/* width: 50%;
+				text-align: center;
+				float: right; */
+
+				& > div{
+					display: inline-block;
+				}
+
+				& > div:first-child{
+					$size: 2rem;
+
+					font-size: 1.5rem;
+					color: #fff;
+					width: $size;
+					height: $size;
+					border-radius: $app__defaults--border-radius;
+					background-color: $app__color--base;
+					line-height: $size;
+					margin-bottom: 0.5rem;
+					text-shadow:$app__defaults--text-shadow;
+					text-align: center;
+				}
+			}
+
+			.txt{
+				font-size: 1.4rem;
+				padding-right: 0.5rem;
+			}
+
+			.disclaimer{
+				font-size: 0.6rem;
+			}
+
+			.fa-ils{
+				text-indent: -4px;
+			}
+		}
+
 		details{
 			//transition: $app__defaults--transition;	
 			//animation-duration: 800ms;
 			//animation-timing-function:ease-in-out; 
+			margin-top: 0.5rem;
 
 			&:not([open]) { 
 				//height: 1.25em; 
@@ -131,7 +182,8 @@ DEFULAT RESOLUTION --> 360x640 [default_res.360x640.scss]
 		}
 
 		summary{
-			transition: $app__defaults--transition;	
+			//transition: $app__defaults--transition;	
+			margin-bottom: 0.5rem;
 
 			&::-webkit-details-marker {
 				display: none;
